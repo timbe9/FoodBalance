@@ -100,7 +100,7 @@ public class PlayerConsumeListener implements Listener {
 		}
 		
 		if (e.getItem().getType() == Material.BAKED_POTATO || e.getItem().getType() == Material.BREAD ||
-				e.getItem().getType() == Material.POTATO) {
+				e.getItem().getType() == Material.POTATO_ITEM) {
 			value = plugin.carbohydrates.get(e.getPlayer());
 			value += 2;
 			plugin.carbohydrates.remove(e.getPlayer());
